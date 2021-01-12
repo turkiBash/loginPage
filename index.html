@@ -8,20 +8,21 @@
     
     
   </head>
-  <dev class>
+  <dev class="loginPage">
     <form>
       <h1>Log In</h1>
         <body>
       <label for="Uname"><b>Username</b></label>
       <br/ >
-      <input type="text" id="username">
+      <input type="text" id="username" placeholder="Username" required="input">
       <p1>Forget Username</p1>
-      <label for="Pword"><b>Password</b></label>
       <br/ >
-      <input type="password" id="password"></input>
+      <label for="Pword" ><b>Password</b></label>
+      <br/ >
+      <input type="password" id="password" placeholder="Password" required="input">
       <p2>Forget Password</p2>
       <br/ >
-      <button type="button" id="submitButton" onclick= "GET" href='https/www.google.com'> Sign in </button>
+      <button id="submitButton" type="submit" value="login" target="https//www.google.com"> Sign in</button>
       <br>
       <input type="checkbox">Save Username
       <span><br></span>
